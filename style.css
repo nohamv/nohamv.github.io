@@ -1,0 +1,114 @@
+ iframe {
+	
+height:70vh;
+width:70%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #7BBAB8; 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+.presentation {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.presentation img {
+  width: 120px;   /* plus fiable que % ici */
+  height: auto;
+}
+
+.texte-presentation {
+  flex: 1;
+  color:#163880;
+}
+th { width: 500px;}
+ul {
+  list-style-image: url(puce-zelda.png); /* image comme puce attention à l’esthétique */
+}
+
+
+#entete-de-page {
+	padding: 5px;
+	height: 100px;
+	background-color:#08A9F3;
+	font-size: 32px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+#bloc-menu {
+	height: 36px;
+	background-color:#F58002;
+	float: center;
+	color: white;
+}
+#contenu {
+	padding: 10px;
+	background-color:  #7BBAB8;
+	color:#163880;
+}
+#infos {
+	color: #163880;
+	font-style: italic;
+}
+#pied-de-page {
+	padding: 5px;
+	background-color: #F58002;
+	font-size: 11px;
+}
+
+.bouton.active {
+Color:#9D08F3;
+}	
+
+.bouton {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	color: #f34808;
+	font-size: 4rem;
+	line-height: 2em;
+	margin: 0 20px; /* espace entre les boutons */
+}
+
+/*mettre une image aux bords arrondis*/
+
+.arrondie {
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px;
+}
+
+.arrondie1 {
+-moz-border-radius:100px;
+-webkit-border-radius:100px;
+border-radius:100px;
+}
+
+a:link {
+  color:#163880;
+  text-decoration: none;
+}
+
+a:visited {
+  color:  #18042E;
+  text-decoration: none;
+}
+
+
+a:hover {
+ color: #FFFFFF;
+ text-decoration: none;
+ 
+}
+
+a:active {
+    color: #601EBD;
+	 text-decoration: none;
+}
